@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  padding: 10px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  background-image: url(/src/img/hogwarts.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #fff;
+}
+
+.form {
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  flex-direction: column;
+}
+.form_textarea {
+  width: 300px;
+  height: 100px;
+  margin-bottom: 15px;
+  resize: none;
+}
+
+.form_button {
+  width: 130px;
+  height: 30px;
+}
+
+.how-work {
+  background-color: rgb(54 50 50 / 50%);
+}
+
+@media only screen and (min-width: 320px) and (max-width: 991px) {
+}
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
