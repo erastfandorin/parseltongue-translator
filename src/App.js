@@ -1,6 +1,13 @@
 import "./App.css";
 import alphabet from "./alphabet";
 import { useState } from "react";
+import { error, defaultModules } from "@pnotify/core";
+import * as PNotifyMobile from "@pnotify/mobile";
+import "@pnotify/core/dist/PNotify.css";
+import "@pnotify/core/dist/BrightTheme.css";
+import "@pnotify/mobile/dist/PNotifyMobile.css";
+
+defaultModules.set(PNotifyMobile, {});
 
 function App() {
   const [ukrainianSentence, setUkrainianSentence] = useState();
@@ -9,9 +16,6 @@ function App() {
   const handleChange = ({ target }) => {
     setUkrainianSentence(() => target.value);
   };
-
-  // не розпізнає великі букви, повертати великі букви
-  // повертати помилку на незнайдені символи
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -29,21 +33,26 @@ function App() {
     }
 
     setParseltongueSentence(() => parseltongueWords.join(" "));
+    console.log(ukrainianSentence);
   };
 
   function getParseltongueSyllables(array, search) {
-    var i = array.length;
+    let i = array.length;
     while (i--) {
       if (array[i].ukrainian === search) {
         return array[i].parseltongue;
       }
     }
+    error({
+      title: "Не розпізнаний символ",
+      text: "Українською, будь ласка!",
+    });
   }
 
   return (
     <div className="App">
       <h1 className="App__headline">Парселтанг перекладач &#128013;</h1>
-      <p className="App__languages-table">Українська > Парселтанг</p>
+      <p className="App__languages-table">Українська &gt; Парселтанг</p>
       <form className="App__form form" onSubmit={handleSubmit}>
         <textarea className="form_textarea" onChange={handleChange}></textarea>
         <textarea
