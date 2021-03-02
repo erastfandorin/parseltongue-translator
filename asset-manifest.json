@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.518a2e15.chunk.css",
-    "main.js": "/static/js/main.7bd782a7.chunk.js",
-    "main.js.map": "/static/js/main.7bd782a7.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.fb5c7181.js",
-    "runtime-main.js.map": "/static/js/runtime-main.fb5c7181.js.map",
-    "static/css/2.218c2778.chunk.css": "/static/css/2.218c2778.chunk.css",
-    "static/js/2.02891189.chunk.js": "/static/js/2.02891189.chunk.js",
-    "static/js/2.02891189.chunk.js.map": "/static/js/2.02891189.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/2.218c2778.chunk.css.map": "/static/css/2.218c2778.chunk.css.map",
-    "static/css/main.518a2e15.chunk.css.map": "/static/css/main.518a2e15.chunk.css.map",
-    "static/js/2.02891189.chunk.js.LICENSE.txt": "/static/js/2.02891189.chunk.js.LICENSE.txt",
-    "static/media/App.css": "/static/media/hogwarts.1112b9e8.jpg"
+    "main.css": "/parseltongue-translator/static/css/main.6ea8f631.chunk.css",
+    "main.js": "/parseltongue-translator/static/js/main.ac8e4d61.chunk.js",
+    "main.js.map": "/parseltongue-translator/static/js/main.ac8e4d61.chunk.js.map",
+    "runtime-main.js": "/parseltongue-translator/static/js/runtime-main.b9904e0e.js",
+    "runtime-main.js.map": "/parseltongue-translator/static/js/runtime-main.b9904e0e.js.map",
+    "static/css/2.a70d7643.chunk.css": "/parseltongue-translator/static/css/2.a70d7643.chunk.css",
+    "static/js/2.51773a02.chunk.js": "/parseltongue-translator/static/js/2.51773a02.chunk.js",
+    "static/js/2.51773a02.chunk.js.map": "/parseltongue-translator/static/js/2.51773a02.chunk.js.map",
+    "index.html": "/parseltongue-translator/index.html",
+    "static/css/2.a70d7643.chunk.css.map": "/parseltongue-translator/static/css/2.a70d7643.chunk.css.map",
+    "static/css/main.6ea8f631.chunk.css.map": "/parseltongue-translator/static/css/main.6ea8f631.chunk.css.map",
+    "static/js/2.51773a02.chunk.js.LICENSE.txt": "/parseltongue-translator/static/js/2.51773a02.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/parseltongue-translator/static/media/hogwarts.1112b9e8.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.fb5c7181.js",
-    "static/css/2.218c2778.chunk.css",
-    "static/js/2.02891189.chunk.js",
-    "static/css/main.518a2e15.chunk.css",
-    "static/js/main.7bd782a7.chunk.js"
+    "static/js/runtime-main.b9904e0e.js",
+    "static/css/2.a70d7643.chunk.css",
+    "static/js/2.51773a02.chunk.js",
+    "static/css/main.6ea8f631.chunk.css",
+    "static/js/main.ac8e4d61.chunk.js"
   ]
 }
