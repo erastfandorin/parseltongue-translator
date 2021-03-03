@@ -54,11 +54,16 @@ function App() {
       <h1 className="App__headline">Парселтанг перекладач &#128013;</h1>
       <p className="App__languages-table">Українська &gt; Парселтанг</p>
       <form className="App__form form" onSubmit={handleSubmit}>
-        <textarea className="form_textarea" onChange={handleChange}></textarea>
+        <textarea
+          className="form_textarea"
+          onChange={handleChange}
+          placeholder="Український текст"
+        ></textarea>
         <textarea
           className="form_textarea"
           disabled
           value={parseltongueSentence}
+          placeholder="Переклад"
         ></textarea>
         <button className="form_button">Перекласти</button>
       </form>
